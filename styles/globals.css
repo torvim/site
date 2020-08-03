@@ -1,16 +1,55 @@
-html,
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://rsms.me/inter/inter.css');
+
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	@apply p-0 m-0;
+	font-family: Inter;
+}
+
+.animate {
+	color: theme('colors.red');
+}
+
+.main-url {
+	color: theme('colors.grey');
+	@apply font-black;
+	font-size: 150px;
+}
+
+.linksIndex {
+	color: theme('colors.darkGrey');
+	@apply font-medium justify-between;
+	font-size: 30px;
+	top: -4vh;
+	position: relative;
+}
+
+.linksIndex li {
+	@apply mr-6;
+}
+
+.links {
+	color: theme('colors.darkGrey');
+	@apply font-medium justify-between;
+	font-size: 30px;
+}
+
+.links li {
+	@apply mr-6;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+	@apply transition duration-500 ease-in-out;
 }
 
-* {
-  box-sizing: border-box;
+a:hover {
+	color: theme('colors.grey');
+}
+
+
+.galleryImage {
+	@apply w-full p-2
 }
