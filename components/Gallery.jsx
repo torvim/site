@@ -4,7 +4,14 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 export default function Gallery(props) {
   return (
     <div className="flex">
-    	{chunk(props.images.map(i => i.replace("public/", "")), Math.round(props.images.length/5)).slice(0, 5).map(
+    	{chunk(
+            props.images
+                .map(i => i.replace("public/", "")) //remove public prefix
+                .sort( (a, b) =>  0.5 - Math.random() )
+            , Math.round(props.images.length/5) //round to nearest image
+        )
+        .slice(0, 5) //make sure there are only 5 columns
+        .map(
     		(column) => (
     			<div className="w-1/5">
     				{column.map(i => (
