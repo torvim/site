@@ -111,7 +111,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(framer_motion__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var react_tilt__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-tilt */ "react-tilt");
 /* harmony import */ var react_tilt__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_tilt__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "C:\\Users\\looey\\OneDrive\\Desktop\\site\\pages\\_app.js";
+var _jsxFileName = "C:\\Users\\looey\\OneDrive\\Desktop\\projects\\site\\pages\\_app.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
