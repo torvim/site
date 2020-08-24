@@ -22,7 +22,7 @@ export default function Home() {
           <a>•</a>
           <a href="https://magichouseplant.tumblr.com/">Tumblr</a>
           <a>•</a>
-          <Link href="/mnml"><a>mnml</a></Link>
+          <Link href="/unmade"><a>(un)made</a></Link>
           <a>•</a>
           <Link href="/inspo"><a>Inspo</a></Link>
           <a>•</a>
