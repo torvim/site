@@ -17,6 +17,7 @@ export default function Home() {
         <li>Make a display font!</li>
         <li>Online magazine/newsletter focused on design</li>
         <li>Write design language based on minimalism</li>
+        <li>Index of USA government deep state conspiracies</li>
       </ul>
     </div>
   )
